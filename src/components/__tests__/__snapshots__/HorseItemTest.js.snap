@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a HorseItem using Snapshots 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "black",
+      "flex": 1,
+      "flexDirection": "row",
+      "marginBottom": 2,
+      "paddingHorizontal": 8,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://d2vtwgzbrv2xnd.cloudfront.net/51e87826c943fd896385734287bbac27fd43c74a.jpeg",
+      }
+    }
+    style={
+      Object {
+        "height": 100,
+        "width": 150,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginLeft": 10,
+          "paddingBottom": 4,
+        }
+      }
+    >
+      American Beauty
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icon_next.png",
+        }
+      }
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "height": 40,
+          "width": 40,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "grey",
+          "height": 2,
+          "marginTop": 2,
+        }
+      }
+    />
+  </View>
+</View>
+`;

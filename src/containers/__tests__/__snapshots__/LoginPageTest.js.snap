@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a LoginPage using Snapshots 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "black",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+  />
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/ic_launcher.png",
+      }
+    }
+    style={
+      Object {
+        "alignSelf": "center",
+        "height": 150,
+        "width": 150,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "white",
+        "fontSize": 22,
+        "marginTop": 10,
+      }
+    }
+  >
+    Email
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "marginTop": 10,
+        "padding": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "white",
+        "fontSize": 22,
+        "marginTop": 10,
+      }
+    }
+  >
+    Password
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    secureTextEntry={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "marginTop": 10,
+        "padding": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "marginTop": 20,
+        "opacity": 1,
+        "padding": 15,
+        "width": "100%",
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#ffffff"
+      hidesWhenStopped={true}
+      size="small"
+    />
+  </View>
+</View>
+`;
+
+exports[`renders a LoginPage using Snapshots 2`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "black",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+  />
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/ic_launcher.png",
+      }
+    }
+    style={
+      Object {
+        "alignSelf": "center",
+        "height": 150,
+        "width": 150,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "white",
+        "fontSize": 22,
+        "marginTop": 10,
+      }
+    }
+  >
+    Email
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "marginTop": 10,
+        "padding": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "white",
+        "fontSize": 22,
+        "marginTop": 10,
+      }
+    }
+  >
+    Password
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    secureTextEntry={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "marginTop": 10,
+        "padding": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "marginTop": 20,
+        "opacity": 1,
+        "padding": 15,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "white",
+          "fontSize": 22,
+        }
+      }
+    >
+      Login
+    </Text>
+  </View>
+</View>
+`;
