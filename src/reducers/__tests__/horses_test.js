@@ -17,7 +17,5 @@ it('handles LOAD_HORSES_FAILURE action', () => {
 });
 
 it('handles LOAD_HORSES_SUCCESS action', () => {
-  // BOOM. If we change that specific reducer case, we'll compare the Snapshot results
-  // and update them if the change is expected.
   expect(horses(initialState, receiveHorses.success(data))).toMatchSnapshot();
 });
