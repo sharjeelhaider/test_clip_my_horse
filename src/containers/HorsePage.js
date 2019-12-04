@@ -28,11 +28,6 @@ export const styles = StyleSheet.create({
   horseContainer: {
     flex: 1,
   },
-  loading: {
-    fontSize: 20,
-    alignSelf: 'center',
-    color: 'white',
-  },
   divider: {
     backgroundColor: 'grey',
     height: 4,
